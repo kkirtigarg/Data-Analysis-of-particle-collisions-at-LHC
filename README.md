@@ -44,10 +44,7 @@ The core of our investigation involves simulating events that encapsulate the pr
 ### Convolutional Neural Network (CNN) Model
 
 #### CNN Architecture Used
-![image](https://imgur.com/76vOkss)
-
-
-
+![cnnarch](https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/37b18d97-929c-41e3-805b-3bc947c851f5)
 
 
 
