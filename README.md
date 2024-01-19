@@ -6,7 +6,7 @@
 - High-energy physics endeavours to understand fundamental nature through particle collisions at extreme energies.
 - LHC experiments (ATLAS, CMS) amassed vast data; the Standard Model explains only 4% of the universe.
 - Pursuit of physics models beyond the Standard Model seeks to unravel the unknown phenomena.
-- 
+
 ### Background
 The pursuit of unravelling the mysteries of the universe has led physicists to embark on groundbreaking experiments at the Large Hadron Collider (LHC). Among the multitude of processes studied, a specific focus lies on the production of light particles and photons. This endeavour delves into the realm of particle interactions, shedding light on the intricate mechanisms that govern our universe. In this study, we delve into the details of this particular process, exploring data generation, transformation, and classification.
 
