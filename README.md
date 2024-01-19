@@ -44,7 +44,7 @@ The core of our investigation involves simulating events that encapsulate the pr
 ### Convolutional Neural Network (CNN) Model
 
 #### CNN Architecture Used
-![Image Alt Text](https://imgur.com/76vOkss)
+![image](https://imgur.com/76vOkss)
 
 
 
