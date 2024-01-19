@@ -17,9 +17,9 @@
 
 The pursuit of unravelling the mysteries of the universe has led physicists to embark on groundbreaking experiments at the Large Hadron Collider (LHC). Among the multitude of processes studied, a specific focus lies on the production of light particles and photons. This endeavour delves into the realm of particle interactions, shedding light on the intricate mechanisms that govern our universe. In this study, we delve into the details of this particular process, exploring data generation, transformation, and classification.
 
-The core of our investigation involves simulating events that encapsulate the production of particles and photons. Two pivotal types of events are generated, each holding distinct significance: Signal and Background Events. Signal events are basically the events of interest to us. For examples, if some new particles are formed from a collision that are new and unknown to us, that would signify some new physics phenomenon that is involved so that would be a signal event. A background event is something that mimics a signal event that could come from a known physical process which we are not interested in. Our main focus is on building classification algorithms to classify a signal event image from a background event image accurately to help discover new phenomena. Till now we have worked on labelled data and build 2 algorithms for the classification- pca and cnn. And currently we are working on cnn.
+The core of our investigation involves simulating events that encapsulate the production of particles and photons. Two pivotal types of events are generated, each holding distinct significance: Signal and Background Events. Signal events are basically the events of interest to us. For examples, if some new particles are formed from a collision that are new and unknown to us, that would signify some new physics phenomenon that is involved so that would be a signal event. A background event is something that mimics a signal event that could come from a known physical process which we are not interested in. Our main focus is on building classification algorithms to classify a signal event image from a background event image accurately to help discover new phenomena. Till now we have worked on labelled data and build 2 algorithms for the classification- Principal Component Analysis (PCA) and Convolutional Neural Newtwork (CNN). And currently we are working on CNN.
 
-### PCA Model
+### Principal Component Analysis (PCA) Model
 #### Loading Images:
 1. A function get_images is defined to collect image objects, their names, and labels from a specified folder. It reads images using OpenCV, flattens them, and stores them along with their filenames and labels.
 2. Images and labels for signal and background categories are collected using the get_images function for two different folders.
@@ -41,6 +41,10 @@ The core of our investigation involves simulating events that encapsulate the pr
 2. For each test image, the code calculates the sum of squared errors with respect to the training images' weights. The closest matching face is determined based on the minimum sum of squared errors.
 3. The code checks if the predicted class matches the true class and prints the result for each test image. It calculates and prints the final accuracy of around 96% of the Eigenfaces model on the test set.
 
+### Convolutional Neural Network (CNN) Model
+
+#### CNN Architecture Used
+![image](file:///C:/Users/ACER/Desktop/pictures/cnnarch.png)
 
 
 
