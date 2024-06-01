@@ -63,7 +63,7 @@ We processes the signal and background images using the **skimage** library in p
 ### Result:
 
 ## Pre-processing as an optimization problem:
-- Effective preprocessing (blurring and deblurring) of the input images for accurate classification of signal and background events : For this task, we compare results of two python libraries- Numpy and Autograd.
+- Effective preprocessing (blurring and deblurring) of the input images for accurate classification of signal and background events : For this task, we compare results of two python libraries- Numpy (which uses conventional method of differentiation) and Autograd (which uses Automatic Differentiation method to calculate gradients).
 - Our pre-processing task includes devising a method to reduce the noisiness (indicated by grainy appearance of an image) while also preserving the important and fine details and information contained in the image.
 
 To pre-process our jet images, we are using a generic methodology for reconstructing images from recorded data and formulating the image reconstruction problem as the following optimisation problem:
