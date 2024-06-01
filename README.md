@@ -49,9 +49,14 @@ The core of our investigation involves simulating events that encapsulate the pr
 Transitioning to CNNs, we used deep learning in image analysis. CNNs offer a sophisticated approach to image processing, leveraging hierarchical feature extraction to discern patterns and relationships within images. This architecture's convolutional layers efficiently captured local correlations by convolving filters across the input image, effectively reducing the complexity of handling large image vectors.It first uses the method of convolution wherein a filter of smaller dimensions, say $D \times D$ (where $D < N$) is put on the input image and traversed throughout the image resulting in dot product values as the new image. In our model, we have used the zero padding method where the output image will be of dimensions $(N+D-1, N+D-1)$. After this step, pooling is also done which is another way of reducing dimensions and retaining important information. We have used the max-pooling method here which picks the maximum value in a pooling filter area. In the end, the vectors are put in a dense, fully connected network for a final output of the class. The model we implemented had 20 layers.
 
 #### Dataset:
-We used balanced dataset of 200 simulated images of signal and background events. We trained on 80% of images using validation set and tested on the rest.
+We used balanced dataset of 200 simulated images of signal and background events. We trained on 80% of images using validation set and tested on the rest. 
 
 <img src="https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/28cbd00a-3145-409e-a899-c03d766d38e2" width=30% height=30%>
+
+### Pre-processing:
+We processes the signal and background images using the **skimage** library in python. Since an image is basically a matrix of pixel values, we sliced each image keeping only the portion from row 260 to 379 and from column 150 to 299. It's essentially cropping each image. Then we resized each cropped image to a shape of (64, 64, 1). Below is shown a cropped jet image:
+
+<img src="https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/9ec2ada2-b990-43b7-80ee-6f3fa762eb30" width=30% height=30%>
 
 #### CNN Architecture Used:
 ![cnnarch](https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/37b18d97-929c-41e3-805b-3bc947c851f5)
