@@ -73,7 +73,8 @@ We processes the signal and background images using the **skimage** library in p
 To pre-process our jet images, we are using a generic methodology for reconstructing images from recorded data and formulating the image reconstruction problem as the following optimisation problem:
 $$C(g_{in}) = C_1 + C_2 = \| g_{out} - \hat{A}g_{in}\|^2 + \alpha \Psi(g_{in})$$
 where the terms signify the following:\
-C1: Mean square term\ C2: Constraint term\
+C1: Mean square term\
+C2: Constraint term\
 $\hat{A}$: Operator which models Physics of field propagation from object space to detector data space.\
 $\alpha$: Positive constant (Lagrange multiplier) which decides the relative weight between the two terms. This is a hyperparameter.\
 $\Psi(g_{in})$: Penalty Function\
