@@ -21,6 +21,9 @@ The core of our investigation involves simulating events that encapsulate the pr
 
 ## Classification (Simulated Images):
 ### Principal Component Analysis (PCA) Model
+
+<img src="https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/fa4ca7a7-0c63-4c4a-a47e-16b18cf1271c">
+
 #### Loading Images:
 1. A function get_images is defined to collect image objects, their names, and labels from a specified folder. It reads images using OpenCV, flattens them, and stores them along with their filenames and labels.
 2. Images and labels for signal and background categories are collected using the get_images function for two different folders.
