@@ -85,4 +85,5 @@ Calculating the sum of squared distance of the final Autograd image to the other
                   SSQ distance Autograd from blurred image:  7.40 e-05
                   SSQ distance Autograd from Original image:  6.25 e-06
                   SSQ distance Autograd from Weiner image:  1.07 e-08
+![weiner](https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/69ed21a3-3108-47c6-b6b2-e95b5cd15c54)
 
