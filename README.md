@@ -144,7 +144,7 @@ We trained on 80% of images using validation set and tested on the rest. Our dee
 <img src="https://github.com/kkirtigarg/Data-Analysis-of-particle-collisions-at-LHC/assets/157001390/9592584f-7329-4c97-b1b5-7a4cf91f7a6b">
 
 ### Results:
-- **AUC-ROC**- AUC-ROC curve for our CNN model with AUC score = 0.695
+- **AUC-ROC**- AUC-ROC curve for our CNN model with AUC score = 0.8
 
 - **Accuracy**- Ratio of the number of correct predictions to the total number of predictions made:
   
